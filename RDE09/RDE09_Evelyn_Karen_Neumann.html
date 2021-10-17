@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimídias</title>
+</head>
+<body>
+    <h1>Incorporando Multimídias ao site</h1>
+    <h2>Tag Iframe</h2>
+    <p>É usada para incorporar outro documento ap documento html.</p>
+    <h3>incorporar outro site dentro do site</h3>
+    <iframe src="http://irati.ifpr.edu.br" height=300 width=300> </iframe>
+
+    <h3>Embutir aúdio no site</h3>
+    <iframe width="30%" height="30%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/105085838&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/miro1973" title="Miro1973" target="_blank" style="color: #cccccc; text-decoration: none;">Miro1973</a> · <a href="https://soundcloud.com/miro1973/ac-dc-thunderstruck" title="AC DC - Thunderstruck" target="_blank" style="color: #cccccc; text-decoration: none;">AC DC - Thunderstruck</a></div>
+
+    <h3>Incorporar vídeos ao site</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/S66PawiI1Uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+   <h2>Tag de vídeo</h2>
+   <p>Serve para a inserção de vídeo local</p>
+   <video poster="midias/video/Bike.jpg" controls>
+      <source src="midias/video/_Bike.mp4" type="video/mp4"> 
+      <source src="midias/video/Bike.webm" type="video/webm">
+      <source src="midias/video/Bike.ogv" type="video/ogv">
+   </video>
+
+   <h2>Tag de aúdio</h2>
+   <p>Serve para a inserção de aúdio local, na Biblioteca de áudio do YouTube você encontra produções musicais e efeitos sonoros livres de royalties para usar nos seus vídeos. As músicas e os efeitos sonoros da Biblioteca de áudio não têm restrições de direitos autorais. </p>
+   <audio preload="metadata" controls>
+     <source src="midias/audio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
+     <source src="midias/audio/Hey-Sailor-Letter-Box.wav" type="audio/wav">
+     <source src="midias/audio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+   </audio>
+
+   <h2>Tag Pictue</h2>
+   <p>Serve para que a gente possa agrupar várias imagens </p>
+   <picture>
+       <source media="(max-width:500px)" srcset="midias/img/bike_110.jpg">
+       <source media="(max-width:700px)" srcset="midias/img/bike_320.jpg">
+       <source media="(max-width:1000px)" srcset="midias/img/bike_640.jpg">
+       <img src="midias/img/bike_full.jpg" alt="Mtb Por-do-sol">
+   </picture>
+</body>
+</html>
