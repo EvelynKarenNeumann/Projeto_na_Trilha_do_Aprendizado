@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(247, 214, 219) ;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    background-color: pink;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+}
+h2{
+    color: rgb(145, 23, 61);
+}
+h3{
+    color: rgb(143, 34, 70);
+}
+ul{
+    color: rgb(214, 93, 134);
+}
