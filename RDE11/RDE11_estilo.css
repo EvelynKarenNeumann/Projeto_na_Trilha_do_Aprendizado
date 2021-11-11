@@ -58,4 +58,11 @@ padding: 20px;
     display: block;
     background-color: rgb(167, 167, 247);
 }
-h3:se
+h3::selection{
+    color: purple;
+    background-color: white;
+}
+p::first-letter{
+    color:blue;
+    font-size: x-large;
+}
