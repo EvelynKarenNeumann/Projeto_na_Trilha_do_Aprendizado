@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://icon-library.com/images/box-icon/box-icon-23.jpg" type="image/x-icon">
+    
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <h1>Box Model</h1>
+
+    <div class="text-wrap">
+        <p>O modelo das caixas em CSS, descreve os box gerados pelos elementos HTML detalhando as opções de ajuste de margens, bordas, padding e conteúdo para cada elemento. </p>
+    </div>
+
+    <br>
+
+    <div>
+
+    </div>
+    <div class="all-containers">
+
+        <div class="container">
+            <div class="container-box">
+                <h2>Block Level</h2>
+                <p>Exemplos de elementos block-level</p>
+                <div class="container-content">
+                    <ul>
+                        <li>div</li>
+                        <li>h1-h6</li>
+                        <li>p</li>
+                        <li>ul</li>
+                        <li>ol</li>
+                        <li>table</li>
+                        <li>form</li>
+                        <li>fildset</li>
+                        <li>hr</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="container-box">
+                <h2>Inline Level</h2>
+
+
+                <p>Exemplos de elementos inline-level</p>
+                <div class="container-content">
+
+
+                    <ul>
+                        <li>span</li>
+                        <li><span>a</span></li>
+                        <li>img</li>
+                        <li>td</li>
+                        <li>label</li>
+                        <li>input</li>
+                        <li>select</li>
+                        <li>textarea</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+
+            <div class="container-box">
+                <h2> Inline-Block</h2>
+                <div class="container-content">
+                    <p>O CSS pode alterar o tipo do elemento, com a propriedade display, com os valores: block, inline</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="all-containers">
+
+
+        <div class="container-position">
+
+            <div class="container-box">
+
+
+                <h2>Posicionamento</h2>
+                <div class="boxes">
+
+
+                    <div class="box1 box">Estático - permanece na posição em que foi definido</div>
+                    <div class="box2 box">Relativo - posicionado em relação onde foi definido </div>
+                    <div class="box3 box">Absoluto - pode ser posicionado em qualquer lugar do documento</div>
+                    <div class="box4 box">Fixed - permanece fixo durante a rolagem do conteúdo </div>
+                    <div class="box5 box">Sticky - permanece fixo durante a rolagem a partir de onde foi definido </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h2>Layers</h2>
+        <span style="font-size: 10px;"> <p>*passe o mouse</p></span>
+        <div class="layer1 layer">Camada 1 </div>
+        <div class="layer2 layer">Camada 2 </div>
+    </div>
+    <div class="content">
+        <br>
+        <h2>Float</h2>
+        <div class="text-wrap">
+            <p>A propriedade float do CSS determina que um elemento deve ser retirado do seu comportamento normal, e colocado flutuando à sua direita ou esquerda.
+                <br> <br><span style="font-size: 12px;"> *o proximo paragrafo também esta dentro da tag e com o parametro float, note que ele sai fora do container onde estaria normalmente</span>
+            </p>
+            <p style="float: left;"> Apesar de funcionar de uma forma simples, é considerado nos dias de hoje uma má pratica, tendo em vista que existem outros recursos para o alinhamento de elementos, como o Flex Box por exemplo.</p>
+
+        </div>
+
+
+
+
+    </div>
+    <a href=".././index.html" alt="Voltar ao inicio">
+
+
+       
+    </a>
+</body>
+
+</html>

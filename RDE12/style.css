@@ -1,0 +1,160 @@
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: #92e7bd;
+    background-color: rgb(129, 129, 185);
+}
+
+h1 {
+    text-align: center;
+    font-size: 44px;
+    color: rgb(8, 8, 8);
+}
+
+h2 {
+    color: rgb(15, 15, 15);
+}
+
+ ::-webkit-scrollbar {
+    width: 6px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: rgb(247, 245, 245);
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(87, 245, 87);
+    border-radius: 8px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(239, 253, 42);
+}
+
+.text-wrap {
+    max-width: 430px;
+    margin-left: 12px;
+    margin-right: 12px;
+    box-shadow: 0 0 4px -1px #111;
+    background-color: rgb(30, 30, 30);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.all-containers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 30%;
+    border-radius: 8px;
+    padding: 1rem;
+    min-width: 100px;
+    margin-bottom: 2rem;
+}
+
+.container-box {
+    color: #ddd;
+    /* border: 1px solid rgb(43, 43, 45); */
+    border-radius: 10px;
+    height: 100%;
+    padding: 1rem;
+    background-color: rgb(16, 37, 34);
+    box-shadow: 0 0 4px -1px rgb(157, 243, 232);
+}
+
+.container-content {
+    box-shadow: 0 0 4px -1px #111;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(23, 23, 25);
+    height: 50%;
+    box-shadow: 0 0 2px 1px rgb(243, 9, 67);
+}
+
+.container-content ul {
+    list-style-type: circle;
+}
+
+.content {
+    margin-left: 14px;
+    margin-bottom: 200px;
+}
+
+.container-position {
+    width: 100%;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.boxes {
+    background-color: rgb(21, 21, 63);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.box {
+    padding: 0.4rem;
+    margin: 30px;
+    border: solid 1px rgb(86, 180, 209);
+    border-radius: 6px;
+}
+
+.box1 {
+    position: static;
+}
+
+.box2 {
+    position: relative;
+}
+
+.box3 {
+    position: absolute;
+    background: #222;
+    margin-top: 140px;
+    margin-left: 120px;
+}
+
+.box4 {
+    position: sticky;
+}
+
+.layer {
+    padding: 1rem;
+    background-color: rgb(107, 21, 206);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    border-radius: 10px;
+    transition: 0.3s background-color;
+    transition: 0.3s z-index;
+    box-shadow: 0 0 3px 1px #111;
+}
+
+.layer1 {
+    background-color: rgb(238, 54, 213);
+}
+
+.layer2 {
+    margin-top: 40px;
+    margin-left: 25px;
+    z-index: 0;
+}
+
+.layer:hover {
+    transition-delay: 0.3s;
+    background-color: rgb(8, 8, 8);
+    z-index: 1;
+}
+
+@media (max-width:965px) {
+    .container {
+        width: max-content
+    }
+}
