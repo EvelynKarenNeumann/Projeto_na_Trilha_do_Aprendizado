@@ -1,0 +1,89 @@
+body{ 
+    font-family:'Times New Roman', Times, serif ; 
+    background-image: linear-gradient(to bottom, #3a072f,#5e0656); 
+    width: 60%; 
+    margin: 0 auto;
+}
+
+header{
+    font-family:'Times New Roman', Times, serif;
+    background-color: #020102;
+    border-radius: 10px; 
+    margin-top: 50px;
+}
+
+.logo img{
+    width:80%; 
+    padding-top:50px;
+}
+
+.navegacao{
+    overflow: hidden; 
+}
+
+.navegacao a{
+    float: right;
+    display: block;
+    color:rgb(226, 45, 196);
+    text-decoration: none; 
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.navegacao a:hover{
+    color:#44053a98;
+    background-color: rgb(#44053a98);
+}
+
+.conteudo1{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+
+.conteudo2{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+.conteudo3{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+.principal.conteudo1{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+
+
+.principal h2{
+    color:#660a8a;
+}
+
+.rodape{
+    color:rgb(10, 1, 14);
+    font-size: 15px;
+    text-align: center;
+    padding: 30px;
+}
+
+@media screen and (max-widht:800px){
+    .principal, .conteudo.central, .conteudo.lateral{
+        width: 100%;
+        padding: 0;
+    }
+}
