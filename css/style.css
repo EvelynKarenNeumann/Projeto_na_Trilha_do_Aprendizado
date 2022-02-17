@@ -142,9 +142,17 @@ body{
     border-radius: 10px;
     box-shadow: 10px 10px 10px #f00dca98;
 }
+.dezoito{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
 
 a{
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+.lo
