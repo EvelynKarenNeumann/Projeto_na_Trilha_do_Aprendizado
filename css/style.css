@@ -1,7 +1,140 @@
-body{
-    background-color: rgb(83, 238, 225);
-    font-family: 'Times New Roman', Times, serif;
+body{ 
+    font-family:'Times New Roman', Times, serif ; 
+    background-image: linear-gradient(to bottom, #3a072f,#5e0656); 
+    width: 40%; 
+    margin: 0 auto;
+    
 }
+
+.um{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+.dois{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+.tres{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+.quatro{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+.cinco{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+.seis{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+.sete{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+.oito{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+.nove{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+.dez{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+.onze{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+.doze{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+.treze{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+.quatorze{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+.quinze{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+.dezeseis{
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f00dca98;
+}
+
 a{
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
